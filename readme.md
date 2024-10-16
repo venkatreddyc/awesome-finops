@@ -38,19 +38,7 @@ A curated list with verything awesome on FinOps
 
 - [What is FinOps?](https://www.finops.org/what-is-finops/): A comprehensive definition and introduction to FinOps.
 
-## Articles
 
-- [The Rise of FinOps](https://www.investopedia.com/terms/f/finops.asp): Exploring the rise of FinOps and its impact on financial management.
-
-## Books
-
-- [Cloud Financial Management Guide](https://www.amazon.com/Cloud-Financial-Management-Guide-Principles/dp/1492044635): A practical guide to managing finances in the cloud.
-- [FinOps: Managing Your Cloud Financials](https://www.amazon.com/FinOps-Managing-Financials-Brian-Capouch/dp/B09FS544S6): A comprehensive book covering various aspects of FinOps and cloud financial management.
-
-## Courses
-
-- [FinOps Foundation Training](https://www.finops.org/training/): Official training courses provided by FinOps.
-- [Cloud Financial Management course on Coursera](https://www.coursera.org/learn/cloud-financial-management): Learn the fundamentals of cloud financial management.
 
 ## Tools
 
@@ -68,6 +56,7 @@ A curated list with verything awesome on FinOps
 ## Communities
 
 - [FinOps Foundation Community](https://www.finops.org/community/): A community of FinOps practitioners and enthusiasts sharing knowledge and experiences.
+- [FinOps Foundation](https://www.finops.org/) - Its goal is to advance the discipline of FinOps and cloud financial management through best practices, education and standards. It is a member of [The Linux Foundation](https://www.linuxfoundation.org/).
 
 ## Podcasts
 
@@ -75,10 +64,29 @@ A curated list with verything awesome on FinOps
 
 > Note: This list is regularly updated with new resources. Feel free to contribute by submitting a pull request on GitHub.
 
-## Communities
+## Cloud Service Providers
+- AWS
+- Azure
+- Google Cloud
+- Oracle Cloud
 
 - [FinOps Foundation](https://www.finops.org/) - Its goal is to advance the discipline of FinOps and cloud financial management through best practices, education and standards. It is a member of [The Linux Foundation](https://www.linuxfoundation.org/).
 
+- 
+
+## Articles
+
+- [The Rise of FinOps](https://www.investopedia.com/terms/f/finops.asp): Exploring the rise of FinOps and its impact on financial management.
+
+## Books
+
+- [Cloud Financial Management Guide](https://www.amazon.com/Cloud-Financial-Management-Guide-Principles/dp/1492044635): A practical guide to managing finances in the cloud.
+- [FinOps: Managing Your Cloud Financials](https://www.amazon.com/FinOps-Managing-Financials-Brian-Capouch/dp/B09FS544S6): A comprehensive book covering various aspects of FinOps and cloud financial management.
+
+## Courses
+
+- [FinOps Foundation Training](https://www.finops.org/training/): Official training courses provided by FinOps.
+- [Cloud Financial Management course on Coursera](https://www.coursera.org/learn/cloud-financial-management): Learn the fundamentals of cloud financial management.
 ## Articles
 
 - [Cost Optimization Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) - AWS Cost Optimization Pillar.
@@ -164,4 +172,4 @@ A curated list with verything awesome on FinOps
 
 ### Contributors
 
-[Thanks goes to these contributors](https://github.com/TechNative-B-V/awesome-finops/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/venkatreddyc/awesome-finops/graphs/contributors)!
