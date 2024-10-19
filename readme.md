@@ -66,6 +66,7 @@ A curated list with verything awesome on FinOps
 
 ## Cloud Service Providers
 - AWS
+   -- https://github.com/donnemartin/awesome-aws
 - Azure
 - Google Cloud
 - Oracle Cloud
