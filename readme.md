@@ -34,11 +34,13 @@ A curated list with verything awesome on FinOps
 - [Communities](#communities)
 - [Podcasts](#podcasts)
 
-## Introduction
+<h2 id="Introduction">Introduction</h2>
+<details>
+<summary>What is FinOps?</summary>
+FinOps is a financial management practice that enables cloud financial management and optimization through collaboration across finance, engineering, and operations teams.
 
-- [What is FinOps?](https://www.finops.org/what-is-finops/): A comprehensive definition and introduction to FinOps.
-
-
+[What is FinOps?](https://www.finops.org/what-is-finops/): A comprehensive definition and introduction to FinOps.
+</details>
 
 ## Tools
 
