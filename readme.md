@@ -1,4 +1,14 @@
-<div align="center">
+
+#github-link {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+<a id="github-link" href="https://github.com/venkatreddyc/awesome-finops" target="_blank">Finops at GitHub </a>
 
 <!-- title -->
 
