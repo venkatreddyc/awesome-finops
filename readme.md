@@ -1,5 +1,29 @@
 
-<a id="github-link" href="https://github.com/venkatreddyc/awesome-finops" target="_blank">Finops at GitHub </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Link</title>
+    <style>
+        #github-link {
+            position: absolute;
+            top: 0px;
+            right: 40px;
+            color: darkblue;
+            padding: 10px;
+            border-radius: 15px;
+            font-size: 1.2em;
+            text-decoration: none; /* Optional */
+        }
+    </style>
+</head>
+<body>
+
+    <a id="github-link" href="https://github.com/venkatreddyc/awesome-finops" target="_blank">Finops at GitHub</a>
+
+</body>
+</html>
 
 <!-- title -->
 
