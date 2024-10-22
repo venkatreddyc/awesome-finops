@@ -1,124 +1,218 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome FinOps</title>
-    <style>
-        body {font-family: 'Segoe UI', sans-serif;margin: 20px;background: #eef2f3;color: #444;position: relative;}
-        h1 {color: #0056b3;text-align: Center;}
-        h2 {color: #0056b3;text-align: left;font-size:2em}
-        nav {background: #0056b3;padding: 15px;border-radius: 5px;margin-bottom: 20px;}
-        nav ul {list-style: none;padding: 0;display: flex;justify-content: center;}
-        nav ul li {margin: 0 10px;}
-        nav a {color: white;text-decoration: none;font-weight: bold;transition: color 0.3s;}
-        input[type="text"], button {padding: 10px;border-radius: 4px;margin-bottom: 10px;border: 1px;transition: border-color 0.3s, background-color 0.3s;}
-        details {margin-bottom: 15px; background: #fff;padding: 15px; border-radius: 5px;box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
-        footer {margin-top: 20px;text-align: center;font-size: 13em;color: #666;}
-        .resource-link {margin: 5px 0;}
-        #github-link {position: absolute;top: 0px;right: 40px;color: darkblue;padding: 10px;border-radius: 15px;font-size: 1.2em}
-        .content-container {display: flex;justify-content: center;align-items: flex-start;}
-        .image-container img { margin-left: 12px; max-width: 500px;width: 100%;}
-        @media (max-width: 600px) {nav ul {flex-direction: column;}
-        }
-    </style>
-</head>
-<body>
-
-<a id="github-link" href="https://github.com/venkatreddyc/awesome-finops" target="_blank">Finops at GitHub </a>
-
 <div align="center">
-    <h1>Awesome FinOps</h1>
-    <p>A curated list of everything awesome in FinOps</p>
+
+<!-- title -->
+
+# Awesome FinOps
+<!--lint ignore no-dead-urls-->
+
+
+<!-- subtitle -->
+
+A curated list with verything awesome on FinOps
+
+<!-- image -->
+
+<a href="" target="_blank" rel="noopener noreferrer">
+  <img src="./finops.png" style="max-width:600px" width=600 />
+</a>
+
+<!-- description -->
+
+
 </div>
 
-<nav aria-label="Main Navigation">
-    <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#videos">Videos</a></li>
-        <li><a href="#communities">Communities</a></li>
-        <li><a href="#podcasts">Podcasts</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-    </ul>
-</nav>
-<div style="display: flex; align-items: center; justify-content: center;">
-    <input type="text" id="search" aria-label="Search" placeholder="Search..." onkeyup="searchFunction()">
-</div>
+<!-- TOC -->
 
-<div class="content-container">
-    <div id="content-list" style="flex: 1;">
-        <h2>📚 Contents</h2>
-        <ul>
-            <li><a href="#Introduction">Introduction</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#books">Books</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#tools">Tools</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#communities">Communities</a></li>
-            <li><a href="#podcasts">Podcasts</a></li>
-            <li><a href="#contributing">Contributing</a></li>
-            <li><a href="#contributors">Contributors</a></li>
-        </ul>
-    </div>
-    <div class="image-container">
-        <img src="./finops.png" alt="FinOps"/>
-    </div>
-</div>
+## Contents
 
-<h2 id="Introduction">Introduction</h2>
-<details>
-<summary>What is FinOps?</summary>
+- [Introduction](#introduction)
+- [Articles](#articles)
+- [Books](#books)
+- [Courses](#courses)
+- [Tools](#tools)
+- [Videos](#videos)
+- [Communities](#communities)
+- [Podcasts](#podcasts)
+
+## Introduction
 - FinOps is a financial management practice that enables cloud financial management and optimization through collaboration across finance, engineering, and operations teams.
-
 [What is FinOps?](https://www.finops.org/what-is-finops/): A comprehensive definition and introduction to FinOps.
-</details>
 
-<h2 id="articles">Articles</h2>
-<details>
-<summary>The Rise of FinOps</summary>
+## Tools
 
-- [The Rise of FinOps](https://www.investopedia.com/terms/f/finops.asp): Exploring the rise of FinOps and its impact on financial management.
-</details>
+- [Cloudability](https://www.cloudability.com/): A cost management platform for optimizing cloud spending.
+- [CloudCheckr](https://cloudcheckr.com/): A comprehensive cloud management platform with a focus on cost optimization.
+- [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/): An AWS service for visualizing, understanding, and managing costs.
+- [Google Cloud Billing](https://cloud.google.com/billing/docs): Google Cloud's billing and cost management resource.
+- [The Well Architecteed Tool FinOps Custom Lens](https://github.com/TheKoiFish/FinOpsCustomLens) - Custom lens in the AWS well-architected Tool with 115 different items related to FinOps grouped in 4 categories.
 
-<h2 id="books">Books</h2>
-<details>
-<summary>Recommended Books</summary>
+## Videos
 
-- [Cloud Financial Management Guide](https://www.amazon.com/Cloud-Financial-Management-Guide-Principles/dp/1492044635): A practical guide to managing finances in the cloud.
-- [FinOps: Managing Your Cloud Financials](https://www.amazon.com/FinOps-Managing-Financials-Brian-Capouch/dp/B09FS544S6): A comprehensive book covering various aspects of FinOps and cloud financial management.
-</details>
+- [FinOps Explained](https://www.youtube.com/watch?v=4CoJr7cjeZ4): A short video explaining FinOps and its benefits.
+- [Cloud Financial Management: AWS Cost Explorer](https://www.youtube.com/watch?v=4726eV2Z2Rk): A tutorial on using AWS Cost Explorer for cloud financial management.
 
-<h2 id="courses">Courses</h2>
-<details>
-<summary>FinOps Training</summary>
+## Communities
 
-- [FinOps Foundation Training](https://www.finops.org/training/): Official training courses provided by FinOps.
-- [Cloud Financial Management course on Coursera](https://www.coursera.org/learn/cloud-financial-management): Learn the fundamentals of cloud financial management.
-</details>
+- [FinOps Foundation Community](https://www.finops.org/community/): A community of FinOps practitioners and enthusiasts sharing knowledge and experiences.
+- [FinOps Foundation](https://www.finops.org/) - Its goal is to advance the discipline of FinOps and cloud financial management through best practices, education and standards. It is a member of [The Linux Foundation](https://www.linuxfoundation.org/).
 
-<h2 id="Cloud Service Providers">Cloud Service Providers</h2>
-<details>
-<summary>Cloud Service Providers</summary>
+## Podcasts
 
-- AWS (https://github.com/donnemartin/awesome-aws).
+- [The FinOps Files](https://www.finops.org/finops-files/): A podcast discussing various topics related to FinOps and cloud financial management.
+
+> Note: This list is regularly updated with new resources. Feel free to contribute by submitting a pull request on GitHub.
+
+## Cloud Service Providers
+- AWS
+   -- https://github.com/donnemartin/awesome-aws
 - Azure
 - Google Cloud
 - Oracle Cloud
+
 - [FinOps Foundation](https://www.finops.org/) - Its goal is to advance the discipline of FinOps and cloud financial management through best practices, education and standards. It is a member of [The Linux Foundation](https://www.linuxfoundation.org/).
-</details>
+
+- 
+
+## Articles
+
+- [The Rise of FinOps](https://www.investopedia.com/terms/f/finops.asp): Exploring the rise of FinOps and its impact on financial management.
+
+## Books
+
+- [Cloud Financial Management Guide](https://www.amazon.com/Cloud-Financial-Management-Guide-Principles/dp/1492044635): A practical guide to managing finances in the cloud.
+- [FinOps: Managing Your Cloud Financials](https://www.amazon.com/FinOps-Managing-Financials-Brian-Capouch/dp/B09FS544S6): A comprehensive book covering various aspects of FinOps and cloud financial management.
+
+## Courses
+
+- [FinOps Foundation Training](https://www.finops.org/training/): Official training courses provided by FinOps.
+- [Cloud Financial Management course on Coursera](https://www.coursera.org/learn/cloud-financial-management): Learn the fundamentals of cloud financial management.
+## Articles
+
+- [Cost Optimization Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) - AWS Cost Optimization Pillar.
+- [deloitte.com: Matching cloud costs to need: Using FinOps for more effective cloud governance](https://www2.deloitte.com/us/en/pages/consulting/articles/using-finops-to-effectively-match-cloud-costs-to-value-for-cloud-professionals-podcast-automation-governance.html) Using FinOps to more effectively govern cloud usage and match cost to need to value can help organizations avoid potentially costly reactions, such as overprovisioning.
+- [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8) Why do we need an accountant in IT?
+- [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.padok.fr/en/blog/finops-cloud)
+- [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://es.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
+- [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops/)
+- [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs/)
+- [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead/)
+- [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/)
+- [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://loft.sh/blog/the-cost-of-managed-kubernetes-a-comparison/)
+- [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team/)
+
+## Books
+
+- [FinOps Book](https://www.finops.org/resources/finops-book/) - Seminal book by founders of the FinOps Foundation.
+
+## Tools
+
+### Open Source Tools
+
+- [kubecost](https://www.kubecost.com/) - Kubecost provides real-time cost visibility and insights for teams using Kubernetes, helping you continuously reduce your cloud costs.
+- [infracost](https://github.com/infracost/infracost) - Infracost shows cloud cost estimates for infrastructure-as-code projects such as Terraform. It helps DevOps, SRE and developers to quickly see a cost breakdown and compare different options upfront.
+- [kube-resource-report](https://codeberg.org/hjacobs/kube-resource-report) - Report Kubernetes cluster and pod resource requests vs usage and generate static HTML.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting.
+- [kube-opex-analytics](https://github.com/rchakode/kube-opex-analytics) - kube-opex-analytics is a tool to help organizations track the resources being consumed by their Kubernetes clusters to prevent overpaying. 
+
+## Articles
+
+- [Cost Optimization Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) - AWS Cost Optimization Pillar.
+- [deloitte.com: Matching cloud costs to need: Using FinOps for more effective cloud governance](https://www2.deloitte.com/us/en/pages/consulting/articles/using-finops-to-effectively-match-cloud-costs-to-value-for-cloud-professionals-podcast-automation-governance.html) Using FinOps to more effectively govern cloud usage and match cost to need to value can help organizations avoid potentially costly reactions, such as overprovisioning.
+- [medium: DevOps, NoOps, and Now FinOps?](https://medium.com/better-programming/devops-noops-finops-64e0df91bcb8) Why do we need an accountant in IT?
+- [padok.fr: FinOps, or the Culture of Cloud Cost Optimization](https://www.padok.fr/en/blog/finops-cloud)
+- [slideshare: FinOps: A Culture Transformation to Bring DevOps, Finance and the Business Together - AWS Summit Sydney](https://es.slideshare.net/AmazonWebServices/finops-a-culture-transformation-to-bring-devops-finance-and-the-business-together-sponsored-by-cloudability-aws-summit-sydney)
+- [aws.amazon.com: Introducing FinOps—Excuse Me, DevSecFinBizOps](https://aws.amazon.com/es/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops/)
+- [devops.com: FinOps Foundation to Help Rein in Cloud Costs](https://devops.com/finops-foundation-to-help-rein-in-cloud-costs/)
+- [infoq.com: Why Every DevOps Team Needs A FinOps Lead](https://www.infoq.com/articles/every-devops-team-needs-finops-lead/)
+- [cncf.io: FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend](https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/)
+- [loft.sh: The Cost of Managed Kubernetes - A Comparison 🌟](https://loft.sh/blog/the-cost-of-managed-kubernetes-a-comparison/)
+- [thenewstack.io: 4 Reasons Your Cloud Operations Need a FinOps Team](https://thenewstack.io/4-reasons-your-cloud-operations-need-a-finops-team/)
+
+## Books
+
+- [FinOps Book](https://www.finops.org/resources/finops-book/) - Seminal book by founders of the FinOps Foundation.
+
+## Tools
+
+### Open Source Tools
+
+- [kubecost](https://www.kubecost.com/) - Kubecost provides real-time cost visibility and insights for teams using Kubernetes, helping you continuously reduce your cloud costs.
+- [infracost](https://github.com/infracost/infracost) - Infracost shows cloud cost estimates for infrastructure-as-code projects such as Terraform. It helps DevOps, SRE and developers to quickly see a cost breakdown and compare different options upfront.
+- [kube-resource-report](https://codeberg.org/hjacobs/kube-resource-report) - Report Kubernetes cluster and pod resource requests vs usage and generate static HTML.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting.
+- [kube-opex-analytics](https://github.com/rchakode/kube-opex-analytics) - kube-opex-analytics is a tool to help organizations track the resources being consumed by their Kubernetes clusters to prevent overpaying. 
 
 
+### Commercial Tools
 
-<h2 id="tools">Tools</h2>
-<details>
-<summary>Tools for FinOps</summary>
-<strong>Open Source Tools:</strong>
+- [Cloudability](https://www.cloudability.com/)
+- [CloudCheckr](https://www.cloudhealthtech.com/)
+- [CloudHealth](https://www.cloudhealthtech.com/)
+- [Densify](https://www.densify.com/)
+- [Replex](https://www.replex.io/technology)
+- [CloudZero](https://www.cloudzero.com/)
+- [SoftwareOne](https://www.softwareone.com/zh-cn/cloud-financial-management)
+- [Spot Cloud Analyzer](https://spot.io/products/cloud-analyzer/)
+
+### Commercial Tools
+
+- [Cloudability](https://www.cloudability.com/)
+- [CloudCheckr](https://www.cloudhealthtech.com/)
+- [CloudHealth](https://www.cloudhealthtech.com/)
+- [Densify](https://www.densify.com/)
+- [Replex](https://www.replex.io/technology)
+- [CloudZero](https://www.cloudzero.com/)
+- [SoftwareOne](https://www.softwareone.com/zh-cn/cloud-financial-management)
+- [Spot Cloud Analyzer](https://spot.io/products/cloud-analyzer/)
+
+## Communities
+
+- [FinOps Foundation](https://www.finops.org/) - Its goal is to advance the discipline of FinOps and cloud financial management through best practices, education and standards. It is a member of [The Linux Foundation](https://www.linuxfoundation.org/).
+- [LinkedIn - Cloud FinOps Practitioners](https://www.linkedin.com/groups/10538269/)
+- [Reddit - r/FinOps](https://www.reddit.com/r/FinOps/)
+
+## Education
+
+### Articles
+
+- [Understanding Data Transfer in AWS](https://www.lastweekinaws.com/blog/understanding-data-transfer-in-aws/) - Make sense of the complex world of data transfer cost in AWS.
+
+### Blogs and Newsletters
+
+- [Corey Quinn / Last Week In AWS](https://www.lastweekinaws.com/newsletter/)
+- [Cristian Magherusan-Stanciu / LeanerCloud](https://leanercloud.beehiiv.com)
+- [Jean Latiere / OptimNow](https://www.optimnow.io/en/blog)
+- [Bastien Martins Da Torre / Cloud FinOps](https://cloud-finops.io/FinOpsTools.html)
+
+### Podcasts
+
+- [Corey Quinn / Screaming in the Cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/) - interviews people in the cloud space.
+- [Cristian Magherusan-Stanciu / LeanerCloud](https://podcasters.spotify.com/pod/show/leanercloud) - technical deep-dives on cloud optimization topics.
+- [Jon Myer](https://jonmyer.com/) - FinOps insights, interviews with FinOps people and tooling vendors.
+- [Keys to AWS Optimization Podcast](https://podcasters.spotify.com/pod/show/keys-to-aws-optimization) - Podcast from the AWS Twitch Channel with SME's on cost optimization.
+- [Keys to AWS Optimization Youtube](https://www.youtube.com/c/thekeystoawsoptimization) - Videos from the AWS Twitch Channel with SME's on cost optimization.
+
+### Books
+
+- [Cloud FinOps - J.R. Storment, Mike Fuller](https://www.oreilly.com/library/view/cloud-finops/9781492054610/) - Seminal book by founders of the FinOps Foundation.
+- [Mastering AWS Cost Optimization - Eli Mansoor](https://www.amazon.de/-/en/Eli-Mansoor/dp/B087HDKMKH) - Book focused on cost optimization techniques for AWS.
+
+### Online Courses
+
+- [edX - Introduction to FinOps](https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS175x+2T2020/course/) - Self-paced, 1-2 hour introduction.
+- [Well Architected Cost Labs](https://wellarchitectedlabs.com/cost/) - The Cost Optimization section of the Well-Architected Labs.
+
+### Certifications
+
+- [FinOps Certified Practitioner](https://www.finops.org/certification/) - Two-day training course and certification by the FinOps Foundation.
+
+### KPIs
+
+- [finopsfoundation/kpis](finopsfoundation/kpis) - List of common KPIs by the FinOps Foundation.
+
+## Tools
+
+### Open Source Tools
 
 - [AutoSpotting Community Edition](https://github.com/LeanerCloud/AutoSpotting) - Converts ASGs to Spot with automated failover to on-demand and no configuration changes. Tags: automated_optimization, AWS, ASG, Kubernetes, EKS, ECS, Spot
 - [Cloud Custodian](https://cloudcustodian.io/) - Stateless rules engine for cloud policy definition and enforcement. Tags: cost_visibility, automated_optimization, multi_cloud
@@ -129,7 +223,7 @@
 - [OptScale](https://github.com/hystax/optscale) - FinOps and cloud cost optimization with ML/AI developer tools. Tags: cost_visibility, multi_cloud, ML
 - [Savings Estimator](https://github.com/LeanerCloud/savings-estimator) - GUI for estimating Spot savings in ASGs. Tags: cost_visibility, AWS, Spot
 
-<strong>Commercial Tools:</strong>
+### Commercial Tools
 
 - [AutoSpotting](https://autospotting.io) - Commercial version of AutoSpotting Community Edition with some enhancements. Tags: automated_optimization, AWS, ASG, Kubernetes, EKS, ECS
 - [BlueArch](https://www.bluearch.io/) - Automated tagging and cost optimization recommendations. Tags: cost_visibility, recommendations
@@ -160,97 +254,29 @@
 - [Vantage](https://vantage.sh) - Multi-cloud cost visibility with automated RI purchasing. Tags: cost_visibility, automated_optimization, RIs, multi_cloud
 - [Xosphere](https://xosphere.io) - Commercial version of AutoSpotting Community Edition with some enhancements. Tags: automated_optimization, AWS, ASG, Kubernetes, EKS
 - [Zesty](https://zesty.io) - Automates RI purchasing and EBS optimization. Tags: automated_optimization, AWS, RIs, EBS
-</details>
 
-<h2 id="Education">Education</h2>
-<details>
-<summary>Education</summary>
+## Service providers
 
-<strong>Articles</strong>
+### Consultancies
 
-- [Understanding Data Transfer in AWS](https://www.lastweekinaws.com/blog/understanding-data-transfer-in-aws/) - Make sense of the complex world of data transfer cost in AWS.
+- [Duckbill Group](https://www.duckbillgroup.com/) - mostly focused on Enterprise customers, based in the US.
+- [TechNative](https://technative.eu) - mostly focused on Enterprise customers, based in the Netherlands.
 
-<strong>Blogs and Newsletters</strong>
+### Freelancers
 
-- [Corey Quinn / Last Week In AWS](https://www.lastweekinaws.com/newsletter/)
-- [Cristian Magherusan-Stanciu / LeanerCloud](https://leanercloud.beehiiv.com)
-- [Jean Latiere / OptimNow](https://www.optimnow.io/en/blog)
-- [Bastien Martins Da Torre / Cloud FinOps](https://cloud-finops.io/FinOpsTools.html)
+- [Cristian Magherusan-Stanciu / LeanerCloud](https://leanercloud.com) - Cloud Optimization Consultant, building OSS and commercial tools like AutoSpotting, EBS Optimizer and Savings Estimator, ex-AWS Specialist Solutions Architect for Spot and Graviton, based in Germany. Tags: technical, tooling, open_source, cloud_strategy
+- [Eli Mansoor / OskaQ Consulting](https://www.oskaq-consulting.com/) - Consultant focused on helping companies and public sector organizations define cloud strategy and negotiate EDP contracts, FinOps book author, ex-AWS Specialist for Graviton, based in Israel. Tags: cloud_strategy, contracts, public_sector
+- [Bastien Martins Da Torre / Cloud FinOps](https://cloud-finops.io)- Pragmatic FinOps consultant, ex-ServiceNow, based in France. Tags: finops_tooling, cloud_strategy, finops 
+- [Erik Norman / Caligo](https://caligo.cloud/) - FinOps consultant, based in Italy. Tags: technical, cloud_strategy
+- [Jean Latiere / OptimNow](https://www.optimnow.io/) -  FinOps consultant focused on Green Computing, ex-AWS Specialist for Spot and Graviton, based in France. Tags: cloud_strategy, greenops
+- [Shahar Raz](https://razts.com) - Tech strategy consultant focused on AWS cost optimization, based in Israel. Tags: cloud_strategy
+- [Srinivas Devaki / OptiOwl](https://optiowl.cloud/) - Technical Cloud Optimization Consultant, based in India. Tags: technical, cloud_strategy
 
-<strong>Podcasts</strong>
-
-- [Corey Quinn / Screaming in the Cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/) - interviews people in the cloud space.
-- [Cristian Magherusan-Stanciu / LeanerCloud](https://podcasters.spotify.com/pod/show/leanercloud) - technical deep-dives on cloud optimization topics.
-- [Jon Myer](https://jonmyer.com/) - FinOps insights, interviews with FinOps people and tooling vendors.
-- [Keys to AWS Optimization Podcast](https://podcasters.spotify.com/pod/show/keys-to-aws-optimization) - Podcast from the AWS Twitch Channel with SME's on cost optimization.
-- [Keys to AWS Optimization Youtube](https://www.youtube.com/c/thekeystoawsoptimization) - Videos from the AWS Twitch Channel with SME's on cost optimization.
-
-<strong>Books</strong>
-
-- [Cloud FinOps - J.R. Storment, Mike Fuller](https://www.oreilly.com/library/view/cloud-finops/9781492054610/) - Seminal book by founders of the FinOps Foundation.
-- [Mastering AWS Cost Optimization - Eli Mansoor](https://www.amazon.de/-/en/Eli-Mansoor/dp/B087HDKMKH) - Book focused on cost optimization techniques for AWS.
-
-<strong>Online Courses</strong>
-
-- [edX - Introduction to FinOps](https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS175x+2T2020/course/) - Self-paced, 1-2 hour introduction.
-- [Well Architected Cost Labs](https://wellarchitectedlabs.com/cost/) - The Cost Optimization section of the Well-Architected Labs.
-
-<strong>Certifications</strong> 
-
-- [FinOps Certified Practitioner](https://www.finops.org/certification/) - Two-day training course and certification by the FinOps Foundation.
-
-<strong>KPIs</strong>
-
-- [finopsfoundation/kpis](finopsfoundation/kpis) - List of common KPIs by the FinOps Foundation.
-</details>
-
-<h2 id="videos">Videos</h2>
-<details>
-<summary>Informative Videos</summary>
-
-- [FinOps Explained](https://www.youtube.com/watch?v=4CoJr7cjeZ4): A brief overview of FinOps benefits.
-- [Cloud Financial Management: AWS Cost Explorer](https://www.youtube.com/watch?v=4726eV2Z2Rk): Tutorial on using AWS Cost Explorer effectively.
-</details>
-
-<h2 id="communities">Communities</h2>
-<details>
-<summary>FinOps Communities</summary>
-
-- [FinOps Foundation Community](https://www.finops.org/community/): A community for practitioners of FinOps.
-- [FinOps Slack Community](https://finops.org/slack-invite/): Join our Slack community to connect with other FinOps professionals.
-</details>
-
-<h2 id="podcasts">Podcasts</h2>
-<details>
-<summary>FinOps Podcasts</summary>
-
-- [The FinOps Files](https://www.finops.org/finops-files/): A podcast discussing FinOps and cloud financial management.
-- [FinOps Community Podcast](https://finops.org/community/podcasts/): Insights from industry leaders in FinOps.
-</details>
-
-<h2 id="service-providers">Service Providers</h2>
-
-<h3 id="Consultancies">Consultancies</h3>
-
-- [Duckbill Group](https://www.duckbillgroup.com/) - Mostly focused on Enterprise customers, based in the US.
-- [TechNative](https://technative.eu) - Mostly focused on Enterprise customers, based in the Netherlands.
-
-<h3 id="Freelancers">Freelancers</h3>
-
-- [Cristian Magherusan-Stanciu / LeanerCloud](https://leanercloud.com) - Cloud Optimization Consultant, building OSS and commercial tools, ex-AWS Specialist Solutions Architect for Spot and Graviton, based in Germany.
-- [Eli Mansoor / OskaQ Consulting](https://www.oskaq-consulting.com/) - Consultant focused on helping companies define cloud strategy and negotiate EDP contracts, ex-AWS Specialist for Graviton, based in Israel.
-- [Bastien Martins Da Torre / Cloud FinOps](https://cloud-finops.io) - Pragmatic FinOps consultant, ex-ServiceNow, based in France.
-- [Erik Norman / Caligo](https://caligo.cloud/) - FinOps consultant, based in Italy.
-- [Jean Latiere / OptimNow](https://www.optimnow.io/) - FinOps consultant focused on Green Computing, ex-AWS Specialist for Spot and Graviton, based in France.
-- [Shahar Raz](https://razts.com) - Tech strategy consultant focused on AWS cost optimization, based in Israel.
-- [Srinivas Devaki / OptiOwl](https://optiowl.cloud/) - Technical Cloud Optimization Consultant, based in India.
-
-<h2 id="contributing">Contributing</h2>
+## Contributing
 
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
 
-<h2 id="contributors">Contributors</h2>
-We appreciate everyone who has contributed to making this repository better.
-</body>
-</html>
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/venkatreddyc/awesome-finops/graphs/contributors)!
 
